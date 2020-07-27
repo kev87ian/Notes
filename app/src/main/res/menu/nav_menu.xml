@@ -4,11 +4,15 @@
         <menu>
             <item
                 android:id="@+id/sync"
+                android:icon="@drawable/ic_baseline_sync_24"
                 android:title="Sync Notes" />
-            <item android:title="Notes"
-                android:id="@+id/notes"/>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_baseline_event_note_24"
+                android:title="Notes" />
             <item
                 android:id="@+id/addNote"
+                android:icon="@drawable/ic_baseline_note_add_24"
                 android:title="Add Note" />
         </menu>
     </item>
@@ -18,9 +22,11 @@
 
             <item
                 android:id="@+id/shareapp"
+                android:icon="@drawable/ic_baseline_share_24"
                 android:title="Share App" />
             <item
                 android:id="@+id/rating"
+                android:icon="@drawable/ic_baseline_rate_review_24"
                 android:title="Rate App" />
         </menu>
 
@@ -29,7 +35,9 @@
     <item android:title="Logout">
 
         <menu>
-            <item android:id="id/logout"
+            <item
+                android:id="id/logout"
+                android:icon="@drawable/ic_baseline_cancel_24"
                 android:title="Logout" />
         </menu>
             </item>
